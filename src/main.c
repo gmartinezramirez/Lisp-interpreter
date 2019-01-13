@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int eval(char* expr) {
+int eval(char* expr)
+{
     return 0;
 }
 
@@ -34,5 +35,6 @@ int main(int argc, char* argv[])
     {
         eval(read());
     }
+
     return 0;
 }
